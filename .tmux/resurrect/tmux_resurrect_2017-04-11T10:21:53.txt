@@ -1,7 +1,0 @@
-pane	invitation	0	:front	1	:*	0	:/Users/jun.yamada/work/repo/connect/limited-front	1	bash	:
-pane	invitation	1	:api	0	:-	0	:/Users/jun.yamada/work/repo/connect/limited-api	1	bash	:
-pane	invitation	2	:batch	0	:	0	:/Users/jun.yamada/work/repo/connect/batch	1	bash	:
-window	invitation	0	1	:*	c09e,208x54,0,0,1
-window	invitation	1	0	:-	c09f,208x54,0,0,2
-window	invitation	2	0	:	c0a0,208x54,0,0,3
-state	invitation	
