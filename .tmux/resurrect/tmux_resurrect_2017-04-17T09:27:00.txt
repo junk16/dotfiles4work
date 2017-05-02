@@ -1,0 +1,19 @@
+pane	0	0	:bash	1	:*	0	:/Users/jun.yamada	1	bash	:
+pane	1	0	:ogateuser@ogatetest01:/usr/share/nginx/html	0	:-	0	:/Users/jun.yamada/work/repo/juyamada/lot_operation/total_sale_access_by_ua	1	bash	:
+pane	1	1	:ogateuser@ogateproxy107:/var/log/nginx	1	:*	0	:/Users/jun.yamada/work/repo/juyamada/lot_operation/total_sale_access_by_ua	1	bash	:
+pane	invitation	0	:front	0	:-	0	:/Users/jun.yamada/work/repo/connect/limited-front	1	bash	:
+pane	invitation	1	:api	1	:*	0	:/Users/jun.yamada/work/repo/connect/limited-api	1	bash	:
+pane	invitation	2	:batch	0	:	0	:/Users/jun.yamada/work/repo/connect/batch	1	bash	:
+pane	ogate	0	:[tmux]	1	:*	0	:/Users/jun.yamada/work/repo/ogate/ias/ansible	1	bash	:
+pane	ogate	0	:[tmux]	1	:*	1	:/Users/jun.yamada/work/repo/juyamada/azure_arm	0	bash	:
+pane	ogate	0	:[tmux]	1	:*	2	:/Users/jun.yamada/work/repo/juyamada/azure_arm	0	bash	:
+pane	ogate	1	:ogateuser@testos02:/etc/nginx/backends/poionaire	0	:-	0	:/Users/jun.yamada/work/repo/juyamada/azure_arm	1	bash	:
+window	0	0	1	:*	c49d,208x55,0,0,0
+window	1	0	0	:-	c49e,208x55,0,0,1
+window	1	1	1	:*	c49f,208x55,0,0,2
+window	invitation	0	0	:-	c0a0,208x54,0,0,3
+window	invitation	1	1	:*	c0a1,208x54,0,0,4
+window	invitation	2	0	:	c0a2,208x54,0,0,5
+window	ogate	0	1	:*	d415,208x54,0,0{104x54,0,0,6,103x54,105,0[103x27,105,0,7,103x26,105,28,8]}
+window	ogate	1	0	:-	c0a6,208x54,0,0,9
+state	invitation	ogate

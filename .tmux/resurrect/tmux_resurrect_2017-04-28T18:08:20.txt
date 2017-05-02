@@ -1,0 +1,17 @@
+pane	8	0	:bash	1	:*	0	:/Users/jun.yamada	1	bash	:
+pane	invitation	0	:front	1	:*	0	:/Users/jun.yamada/work/repo/connect/limited-front	1	bash	:
+pane	invitation	1	:api	0	:-	0	:/Users/jun.yamada/work/repo/connect/limited-api	1	bash	:
+pane	invitation	2	:batch	0	:	0	:/Users/jun.yamada/work/repo/connect/batch	1	bash	:
+pane	ogate	0	:ogateuser@ogp100testeastasia:/etc/ssl/certs	1	:*M	0	:/Users/jun.yamada/work/repo/ogate/infrastructure_code/ansible/ssh	1	bash	:
+pane	ogate	0	:ogateuser@ogp100testeastasia:/etc/ssl/certs	1	:*M	1	:/Users/jun.yamada/work/repo/juyamada/azure_arm	0	bash	:
+pane	ogate	0	:ogateuser@ogp100testeastasia:/etc/ssl/certs	1	:*M	2	:/Users/jun.yamada/work/repo/juyamada/azure_arm	0	bash	:
+pane	ogate	1	:ogateuser@ogp100testwest02:/var/log/nginx	0	:-	0	:/Users/jun.yamada/work/repo/juyamada/azure_arm	1	bash	:
+pane	pair	0	:[tmux]	1	:*	0	:/private/var/log	1	bash	:
+window	8	0	1	:*	6286,208x55,0,0,17
+window	invitation	0	1	:*	c0a1,208x54,0,0,4
+window	invitation	1	0	:-	c0a2,208x54,0,0,5
+window	invitation	2	0	:	c0a3,208x54,0,0,6
+window	ogate	0	1	:*M	33da,208x54,0,0{104x54,0,0,7,103x54,105,0[103x25,105,0,8,103x28,105,26,9]}
+window	ogate	1	0	:-	607f,208x54,0,0,10
+window	pair	0	1	:*	5e84,208x53,0,0,15
+state	ogate	

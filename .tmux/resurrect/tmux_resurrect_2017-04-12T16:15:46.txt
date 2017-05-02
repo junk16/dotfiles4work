@@ -1,0 +1,11 @@
+pane	1	0	:ogateuser@ogatetest01:/usr/share/nginx/html	0	:-	0	:/Users/jun.yamada/work/repo/juyamada/lot_operation/total_sale_access_by_ua	1	bash	:
+pane	1	1	:ogateuser@ogateproxy107:/var/log/nginx	1	:*	0	:/Users/jun.yamada/work/repo/juyamada/lot_operation/total_sale_access_by_ua	1	ssh	:ssh ogateuser@ogateproxy107.japaneast.cloudapp.azure.com -p 22 -i /Users/jun.yamada/.ssh/azure_ssh_key
+pane	invitation	0	:front	1	:*	0	:/Users/jun.yamada/work/repo/connect/limited-front	1	bash	:
+pane	invitation	1	:api	0	:-	0	:/Users/jun.yamada/work/repo/connect/limited-api	1	bash	:
+pane	invitation	2	:batch	0	:	0	:/Users/jun.yamada/work/repo/connect/batch	1	bash	:
+window	1	0	0	:-	c0a1,208x54,0,0,4
+window	1	1	1	:*	c0a2,208x54,0,0,5
+window	invitation	0	1	:*	c09e,208x54,0,0,1
+window	invitation	1	0	:-	c09f,208x54,0,0,2
+window	invitation	2	0	:	c0a0,208x54,0,0,3
+state	1	
